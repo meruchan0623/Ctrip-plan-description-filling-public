@@ -1,0 +1,46 @@
+# -*- coding: utf-8 -*-
+"""产品图片编辑状态的领域公开接口。"""
+
+from product_image_workspace_state import (
+    CandidateImage,
+    LocalImageInspection,
+    ProductImageEditHistory,
+    ProductImageEditorState,
+    SiteImageDiff,
+    SiteImagePlan,
+    WorkspaceImage,
+    add_candidate,
+    add_image_to_site,
+    candidate_path_key,
+    copy_site_plan,
+    make_product_editor_state,
+    move_image_in_site,
+    remove_image_from_site,
+    restore_product,
+    restore_site,
+    site_image_diff,
+    workspace_image_from_api,
+    workspace_image_key,
+)
+
+__all__ = [
+    "CandidateImage",
+    "LocalImageInspection",
+    "ProductImageEditHistory",
+    "ProductImageEditorState",
+    "SiteImageDiff",
+    "SiteImagePlan",
+    "WorkspaceImage",
+    "add_candidate",
+    "add_image_to_site",
+    "candidate_path_key",
+    "copy_site_plan",
+    "make_product_editor_state",
+    "move_image_in_site",
+    "remove_image_from_site",
+    "restore_product",
+    "restore_site",
+    "site_image_diff",
+    "workspace_image_from_api",
+    "workspace_image_key",
+]
